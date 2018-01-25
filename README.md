@@ -10,4 +10,4 @@ To run the project, run the following command:
 
 # Testing
 
-Open your browser and goto the http://localhost:3000/screenshot?url=https://google.com
+Open your browser and go to the http://localhost:3000/screenshot?url=https://google.com URL.
