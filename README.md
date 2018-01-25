@@ -11,3 +11,7 @@ To run the project, run the following command:
 # Testing
 
 Open your browser and go to the http://localhost:4000/screenshot?url=https://google.com URL.
+
+# Special Thanks
+
+- [Mehmet A. Kahraman](https://github.com/mkahramana)
