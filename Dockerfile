@@ -15,5 +15,6 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
 COPY ./*.js ./example/
+COPY ./*.json ./example/
 WORKDIR example/
 RUN npm install

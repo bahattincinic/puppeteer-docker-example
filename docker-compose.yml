@@ -5,7 +5,7 @@ services:
     build: .
     container_name: example
     ports:
-      - 3000:3000
+      - 4000:4000
     volumes:
       - ".:/example"
       - "/example/node_modules"
