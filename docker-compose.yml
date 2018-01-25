@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  example:
+    build: .
+    container_name: example
+    ports:
+      - 3000:3000
+    volumes:
+      - ".:/example"
+      - "/example/node_modules"
+    command: "npm start"

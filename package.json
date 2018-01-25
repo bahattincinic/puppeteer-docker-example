@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "puppeteer": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
