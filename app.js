@@ -11,6 +11,7 @@ app.get('/screenshot', async (req, res) => {
 
   const page = await browser.newPage();
 
+  await page.setJavaScriptEnabled(true);
   await page.goto(req.query.url);
 
   const screenshot = await page.screenshot({ type: 'jpeg', quality: 95 });
